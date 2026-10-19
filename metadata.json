@@ -1,0 +1,6 @@
+{
+  "name": "Usha Bakery",
+  "description": "Artisanal bakery crafting celebration cakes, pastries, and custom desserts for birthdays, weddings, and special moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
