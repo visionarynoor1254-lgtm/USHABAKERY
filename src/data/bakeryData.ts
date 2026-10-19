@@ -1,17 +1,29 @@
 import { Category, Product } from '../types';
 
+import heroImg from '../assets/images/hero_pink_strawberry_cake_1792418171767.jpg';
+import celebrationRosetteImg from '../assets/images/hero_celebration_cake_1792417312391.jpg';
+import chocolateTruffleImg from '../assets/images/cake_chocolate_truffle_1792417312291.jpg';
+import redVelvetImg from '../assets/images/cake_red_velvet_1792417313687.jpg';
+import cupcakesImg from '../assets/images/cake_pastries_cupcakes_1792417314254.jpg';
+import weddingAnniversaryImg from '../assets/images/cake_wedding_anniversary_1792417315352.jpg';
+import bakeryKitchenImg from '../assets/images/bakery_kitchen_artisan_1792417315707.jpg';
+import blackForestImg from '../assets/images/cake_black_forest_1792417382888.jpg';
+import butterscotchImg from '../assets/images/cake_butterscotch_1792417382799.jpg';
+import freshCreamFruitImg from '../assets/images/cake_fresh_cream_fruit_1792417384742.jpg';
+import customBirthdayImg from '../assets/images/cake_custom_birthday_1792417384106.jpg';
+
 export const BAKERY_IMAGES = {
-  hero: '/src/assets/images/hero_pink_strawberry_cake_1792418171767.jpg',
-  celebrationRosette: '/src/assets/images/hero_celebration_cake_1792417312391.jpg',
-  chocolateTruffle: '/src/assets/images/cake_chocolate_truffle_1792417312291.jpg',
-  redVelvet: '/src/assets/images/cake_red_velvet_1792417313687.jpg',
-  cupcakes: '/src/assets/images/cake_pastries_cupcakes_1792417314254.jpg',
-  weddingAnniversary: '/src/assets/images/cake_wedding_anniversary_1792417315352.jpg',
-  bakeryKitchen: '/src/assets/images/bakery_kitchen_artisan_1792417315707.jpg',
-  blackForest: '/src/assets/images/cake_black_forest_1792417382888.jpg',
-  butterscotch: '/src/assets/images/cake_butterscotch_1792417382799.jpg',
-  freshCreamFruit: '/src/assets/images/cake_fresh_cream_fruit_1792417384742.jpg',
-  customBirthday: '/src/assets/images/cake_custom_birthday_1792417384106.jpg',
+  hero: heroImg,
+  celebrationRosette: celebrationRosetteImg,
+  chocolateTruffle: chocolateTruffleImg,
+  redVelvet: redVelvetImg,
+  cupcakes: cupcakesImg,
+  weddingAnniversary: weddingAnniversaryImg,
+  bakeryKitchen: bakeryKitchenImg,
+  blackForest: blackForestImg,
+  butterscotch: butterscotchImg,
+  freshCreamFruit: freshCreamFruitImg,
+  customBirthday: customBirthdayImg,
 };
 
 export const BUSINESS_CONFIG = {
